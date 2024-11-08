@@ -24,37 +24,36 @@ public class CreateClientes {
                 .append("telefone", "(82)9829-8465")
                 .append("ingressos", List.of(
                         new Document()
-                                .append("id", new ObjectId("672e1e14794ca741af3c17a5"))
+                                .append("id", new ObjectId("672e3c2547e3f06fe49a08b5")) // ID correto do evento 'Show de Rock'
                                 .append("nome", "Show de Rock")
                 ));
         c2
                 .append("nome", "Luccas Eduardo")
-                .append("cpf", "122.698.684-10")
-                .append("telefone", "(82)9857-8465")                
+                .append("cpf", "122.700.396-15")
+                .append("telefone", "(82)9857-3398")
                 .append("ingressos", List.of(
                         new Document()
-                                .append("id", new ObjectId("672e1e14794ca741af3c17a5"))
+                                .append("id", new ObjectId("672e3c2547e3f06fe49a08b5")) // ID correto do evento 'Show de Rock'
                                 .append("nome", "Show de Rock"),
                         new Document()
-                                .append("id", new ObjectId("672e1e14794ca741af3c17a4"))
+                                .append("id", new ObjectId("672e3c2547e3f06fe49a08b4")) // ID correto do evento 'Festival de Música'
                                 .append("nome", "Festival de Música")
                 ));
         c3
                 .append("nome", "Eduardo Wanderley")
                 .append("cpf", "122.698.684-10")
-                .append("telefone", "(82)99110-3509")                
+                .append("telefone", "(82)99110-3509")
                 .append("ingressos", List.of(
                         new Document()
-                                .append("id", new ObjectId("672e1e14794ca741af3c17a5"))
+                                .append("id", new ObjectId("672e3c2547e3f06fe49a08b5")) // ID correto do evento 'Show de Rock'
                                 .append("nome", "Show de Rock"),
                         new Document()
-                                .append("id", new ObjectId("672e1e14794ca741af3c17a4"))
+                                .append("id", new ObjectId("672e3c2547e3f06fe49a08b4")) // ID correto do evento 'Festival de Música'
                                 .append("nome", "Festival de Musica"),
                         new Document()
-                                .append("id", new ObjectId("672e1e14794ca741af3c17a6"))
+                                .append("id", new ObjectId("672e3c2547e3f06fe49a08b6")) // ID correto do evento 'Teatro'
                                 .append("nome", "Teatro")
                 ));
-
 
         try {
             colecao.insertOne(c1);

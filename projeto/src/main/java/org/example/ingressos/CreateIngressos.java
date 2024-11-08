@@ -20,7 +20,7 @@ public class CreateIngressos {
                 .append("tipoIngresso", "Comum")
                 .append("preco", 150.00)
                 .append("evento", new Document()
-                                .append("id", new ObjectId("672e1d3f6221e921274dd9a6"))
+                                .append("id", new ObjectId("672e3babac2438594aad93be"))
                                 .append("nome", "Festival de Música")
                         
                         );
@@ -28,7 +28,7 @@ public class CreateIngressos {
                 .append("tipoIngresso", "Comum")
                 .append("preco", 150.00)
                 .append("evento", new Document()
-                                .append("id", new ObjectId("672e1d3f6221e921274dd9a7"))
+                                .append("id", new ObjectId("672e3babac2438594aad93bf"))
                                 .append("nome", "Show de Rock")
                         
                         );
@@ -36,7 +36,7 @@ public class CreateIngressos {
                 .append("tipoIngresso", "Comum")
                 .append("preco", 100.00)
                 .append("evento", new Document()
-                                .append("id", new ObjectId("672e1d3f6221e921274dd9a8"))
+                                .append("id", new ObjectId("672e3babac2438594aad93c0"))
                                 .append("nome", "Teatro")
                         
                         );

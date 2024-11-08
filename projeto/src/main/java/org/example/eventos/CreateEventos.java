@@ -22,15 +22,15 @@ public class CreateEventos {
                 .append("data", "2024-12-15")
                 .append("hora", "18:00")
                 .append("local", new Document()
-                                .append("id", new ObjectId("672e1c24a7e83448356b6e99"))
+                                .append("id", new ObjectId("672e3aca96187853c873d330"))
                                 .append("nome", "Parque Central")                        
                         )
                 .append("atracoes", List.of(
                         new Document()
-                                .append("id", new ObjectId("672e1c4ab903e27b392665dc"))
+                                .append("id", new ObjectId("672e3ad6d299bf0338d7b3b5"))
                                 .append("nome", "Cantor Solo ABC"),
                         new Document()
-                                .append("id", new ObjectId("672e1c4ab903e27b392665dd"))
+                                .append("id", new ObjectId("672e3ad6d299bf0338d7b3b6"))
                                 .append("nome", "Cantor de Funk")
                 ));
         e2
@@ -38,15 +38,15 @@ public class CreateEventos {
                 .append("data", "2024-12-20")
                 .append("hora", "20:00")
                 .append("local", new Document()
-                                .append("id", new ObjectId("672e1c24a7e83448356b6e9a"))
+                                .append("id", new ObjectId("672e3acb96187853c873d331"))
                                 .append("nome", "Arena Show")                        
                         )
                 .append("atracoes", List.of(
                         new Document()
-                                .append("id", new ObjectId("672e1c4ab903e27b392665da"))
+                                .append("id", new ObjectId("672e3ad6d299bf0338d7b3b3"))
                                 .append("nome", "Banda XYZ"),
                         new Document()
-                                .append("id", new ObjectId("672e1c4ab903e27b392665db"))
+                                .append("id", new ObjectId("672e3ad6d299bf0338d7b3b4"))
                                 .append("nome", "Banda Metal")
                 ));
         e3
@@ -54,15 +54,15 @@ public class CreateEventos {
                 .append("data", "2024-12-25")
                 .append("hora", "19:00")
                 .append("local", new Document()
-                                .append("id", new ObjectId("672e1c24a7e83448356b6e9b"))
+                                .append("id", new ObjectId("672e3acb96187853c873d332"))
                                 .append("nome", "Teatro Aberto")                        
                         )
                 .append("atracoes", List.of(
                         new Document()
-                                .append("id", new ObjectId("672e1c4ab903e27b392665de"))
+                                .append("id", new ObjectId("672e3ad6d299bf0338d7b3b7"))
                                 .append("nome", "Grupo de Teatro LMN"),
                         new Document()
-                                .append("id", new ObjectId("672e1c4ab903e27b392665df"))
+                                .append("id", new ObjectId("672e3ad6d299bf0338d7b3b8"))
                                 .append("nome", "Grupo de Teatro ABC")
                 ));
 
